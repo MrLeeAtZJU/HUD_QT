@@ -16,7 +16,7 @@ This project develops a HUD interface used in cars with QT framework.
 
 * 前方距离的数字仍有缺失，目前只有3、5、9、0四张图片。
 
-# 交叉编译。
+# 交叉编译
 * 在40.101服务器上有Qt4.7的交叉编译环境，代码在Qt中测试成功后，将修改的文件覆盖/mnt/sdb/lym/UI_20180929/中的同名文件，并在代码根目录中make即可，不要覆盖40.101上的Makefile，也不要使用/mnt/sdb/lym/Qt4.7/bin/qmake生成新的Makefile文件。若不慎qmake过了也不要紧，在Makefile中加上-I../Communicate和- lexchange即可。
 
 * 若编译环境丢失，可去/mnt/sdc/zhousizhong/HUD/HUD_IMX6UL/App/QT/目录下查看Qt_install_instruction，按指示重新编译生成新的编译环境。或直接更改该目录下qt-everywhere-opensource-src-4.7.0/install_arm.sh中的配置信息并执行该脚本完成安装。
