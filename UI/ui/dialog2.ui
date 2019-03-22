@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog2</class>
+ <widget class="QDialog" name="Dialog2">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(112, 112, 112);</string>
+  </property>
+  <widget class="QLabel" name="speed">
+   <property name="geometry">
+    <rect>
+     <x>195</x>
+     <y>153</y>
+     <width>160</width>
+     <height>75</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Nimbus Sans L</family>
+     <pointsize>72</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>197</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="speedUnit">
+   <property name="geometry">
+    <rect>
+     <x>358</x>
+     <y>213</y>
+     <width>40</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>km/h</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="distance">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>316</y>
+     <width>220</width>
+     <height>75</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Nimbus Sans L</family>
+     <pointsize>72</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>3746</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="distanceUnit">
+   <property name="geometry">
+    <rect>
+     <x>622</x>
+     <y>376</y>
+     <width>20</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>m</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="acc">
+   <property name="geometry">
+    <rect>
+     <x>293</x>
+     <y>435</y>
+     <width>50</width>
+     <height>45</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lowFuelLevel">
+   <property name="geometry">
+    <rect>
+     <x>452</x>
+     <y>435</y>
+     <width>50</width>
+     <height>45</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="checkEngine">
+   <property name="geometry">
+    <rect>
+     <x>502</x>
+     <y>435</y>
+     <width>47</width>
+     <height>45</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="laneAssist">
+   <property name="geometry">
+    <rect>
+     <x>251</x>
+     <y>435</y>
+     <width>39</width>
+     <height>45</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="highOilTemp">
+   <property name="geometry">
+    <rect>
+     <x>346</x>
+     <y>435</y>
+     <width>50</width>
+     <height>45</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="highOilLevel">
+   <property name="geometry">
+    <rect>
+     <x>399</x>
+     <y>435</y>
+     <width>50</width>
+     <height>45</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="turnRight">
+   <property name="geometry">
+    <rect>
+     <x>512</x>
+     <y>147</y>
+     <width>71</width>
+     <height>138</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/model1/image/turnRightAhead.png);</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

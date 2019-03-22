@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog4</class>
+ <widget class="QDialog" name="Dialog4">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(112, 112, 112);</string>
+  </property>
+  <widget class="QLabel" name="acc">
+   <property name="geometry">
+    <rect>
+     <x>424</x>
+     <y>435</y>
+     <width>50</width>
+     <height>45</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lowFuelLevel">
+   <property name="geometry">
+    <rect>
+     <x>583</x>
+     <y>435</y>
+     <width>50</width>
+     <height>45</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="laneAssist">
+   <property name="geometry">
+    <rect>
+     <x>382</x>
+     <y>435</y>
+     <width>39</width>
+     <height>45</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="highOilLevel">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>435</y>
+     <width>50</width>
+     <height>45</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="checkEngine">
+   <property name="geometry">
+    <rect>
+     <x>633</x>
+     <y>435</y>
+     <width>47</width>
+     <height>45</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="highOilTemp">
+   <property name="geometry">
+    <rect>
+     <x>477</x>
+     <y>435</y>
+     <width>50</width>
+     <height>45</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="map">
+   <property name="geometry">
+    <rect>
+     <x>159</x>
+     <y>0</y>
+     <width>506</width>
+     <height>416</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

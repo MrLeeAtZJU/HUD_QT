@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/model1">
+        <file>image/startup.jpg</file>
+    </qresource>
+</RCC>
